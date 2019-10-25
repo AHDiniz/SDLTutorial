@@ -20,6 +20,11 @@ public:
 		SDL_RenderPresent(renderer);
 	}
 
+	inline void DrawColor(uint8_t r, uint8_t g, uint8_t b, uint8_t a)
+	{
+		SDL_SetRenderDrawColor(renderer, r, g, b, a);
+	}
+
 private:
 	SDL_Renderer *renderer;
 };
