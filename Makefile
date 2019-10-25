@@ -1,5 +1,5 @@
 CC = g++
-CFLAGS = -w
+CFLAGS = -g -O2
 LFLAGS = -lSDL2 -lSDL2_image
 SRC = $(wildcard src/*.cpp)
 INC = -Iinclude

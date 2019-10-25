@@ -14,7 +14,7 @@ public:
 	inline bool Running() { return running; }
 protected:
 	Window window;
-	bool running;
+	bool running = true;
 };
 
 App *CreateApp(void);
